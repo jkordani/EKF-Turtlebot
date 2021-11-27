@@ -1,3 +1,4 @@
 [submodule "catkin_ws/src/robot_pose_ekf"]
 	path = catkin_ws/src/robot_pose_ekf
 	url = git@github.com:jkordani/robot_pose_ekf.git
+	branch = jkordani
