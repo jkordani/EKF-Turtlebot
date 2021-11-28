@@ -9,6 +9,7 @@ RUN apt update && apt install -y \
     build-essential \
     ros-kinetic-robot-pose-ekf \
     ros-kinetic-joy* \
+    ros-kinetic-turtlebot-* \
     && rm -rf /var/lib/apt/lists/*
 
 RUN adduser --gecos "" --disabled-password user && echo "user:user" | chpasswd
